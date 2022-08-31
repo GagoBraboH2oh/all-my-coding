@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    text-align: center;
+    padding-bottom: 10px
+    
+}
+html{
+    display: block;
+    margin: auto;
+
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: aqua;
+
+}
+    html{
+        width: 600px;
+    }
