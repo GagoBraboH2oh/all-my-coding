@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/formulario 4/login.php" method="post">
+
+        <h1><small>formulario</small></h1>
+
+        <p>
+            <label for="state">Estado</label>
+            <select name="" id="state">
+
+                <option value="" selected>ESCOLHA SEU ESTADO</option>
+                <optgroup label="regiao sul">
+                    <option value="PR">parana</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+
+                <optgroup label="regiao sudeste">
+                    <option value="SP">Sao Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+
+            <label for="prof"><small>profissao</small></label>
+            <input type="text" id="prof" list="profissao">
+            <datalist id="profissao">
+                <option value="ADM">Administraçao</option>
+                <option value="MAR">Marceneiro</option>
+            </datalist>
+
+        </p>
+        <p>
+            
+            <textarea name="" id="" cols="100" rows="15"></textarea>
+        </p>
+        <p>
+            <input type="reset">
+            <input type="submit">
+        </p>
+
+    </form>
+
+</body>
+</html>
