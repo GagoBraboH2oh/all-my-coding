@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#hub{
+    display: block;
+    margin: auto;
+    width: 1200px;
+}
+header{
+    display: inline-block;
+    width: 100vw;
+    height: 70px;
+    background-color: lightgray;
+}
+
+#logo>img{
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding-left:30px;
+    padding-top: 15px;
+    
+}
+
+#row1{
+    background-color: black;
+    width: 100vw;
+    height: 200px;
+}
+
+#row1-1, #row1-2{
+    display:inline-flex;
+    margin: auto;
+    height:90px;
+    width:40vw;
+    background-color: aqua;
+}

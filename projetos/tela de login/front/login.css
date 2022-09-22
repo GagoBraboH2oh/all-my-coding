@@ -44,6 +44,14 @@ body,html{
     
 }
 
+input{
+    
+    display: inline-block;
+    border: 120px;
+    border-bottom:2px solid black ;
+    background-color: transparent;
+}
+
 #login>#senha,input{
      margin: 10px;
      border: 1px rgb(0, 0, 0) solid ;
@@ -109,3 +117,4 @@ body,html{
     transform: rotate(270deg );
     bottom: -10px;
 }
+

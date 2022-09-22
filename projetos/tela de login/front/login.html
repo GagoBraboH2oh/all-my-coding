@@ -14,9 +14,7 @@
             <div id="conteudo">
                 <form action="" method="post">
 
-                    <article>
-                        <img src="img/mulher.png" alt="" srcset="" id="fotom">
-                    </article>
+                    
                             
                         
                     <div id="login">
@@ -30,15 +28,14 @@
                        <span><label for="email">email:</label></span> <input type="email" required autocapitalize="on" id="email" placeholder="digite aqui seu e-mail">
                         <p><span><label for="senha">senha:</label></span><input type="password" required id="senha" placeholder="digite sua senha"></p>
                         <p><span id="newa"><a href="">registra-se agora</a></span></p>
-                        <p><input type="submit" value="entrar" id="entrar"></p>
+                        <p><input  type="submit" value="entrar" id="entrar" onclick="login(); return false;"  ></p>
                     </div>
 
-                    <article>
-                        <img src="img/homen.png" alt="" srcset="" id="fotoh">
-                    </article>
+                    
                 </form>
             </div>
         </article>
     </main>
+<script src="../back/scriptlogin.js"></script>
 </body>
 </html>
