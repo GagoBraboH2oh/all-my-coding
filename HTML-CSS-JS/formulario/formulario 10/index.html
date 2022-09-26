@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <form action="/all-my-coding/formulario/formulario 4/login.php" method="post">
+        
+
+        <p>
+            <label for="n1">numero1:</label>
+            <input type="number" min="0" max="50" required id="n1" value="25" oninput="more.innerHTML = Number(n1.value) +   Number(n2.value)">
+            
+        </p>
+        <p>
+            <label for="n2">numero2:</label>
+            <input type="number" min="0" max="50" required id="n2" value="25" oninput="more.innerHTML= Number(n1.value) + Number(n2.value)">
+        </p>
+         <label for="more">soma:</label>
+         <output id="more">0</output>
+
+
+
+
+        <p>
+            <input type="submit" id="send">
+            <input type="reset" id="reset">
+        </p>
+       
+    </form>
+
+    <hr>
+
+    <h1>segundo formulario</h1>
+    <form action="/all-my-coding/formulario/formulario 4/login.php" method="post">
+        <input type="range" id="range" oninput="val.innerHTML=Number(range.value)"> <output id="val">0</output>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+    <hr>
+    <h1>terceiro formulario</h1>
+    <label for="youryear">qual ano voce nasceu?:</label>
+    <input type="number" max="2022" id="youryear" oninput="whatyear()" required>
+    <p>
+       <label for="">voce tem:</label> 
+       <output id="res">
+        0
+       </output>
+       <script>
+        function whatyear(){
+            let nowyear = new Date().getFullYear()
+            res.innerHTML= Number(nowyear) - Number(youryear.value)
+        }
+       </script>
+    </p>
+    
+    <p>
+        <input type="submit">
+        <input type="reset">
+    </p>
+    
+</body>
+</html>

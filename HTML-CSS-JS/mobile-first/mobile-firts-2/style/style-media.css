@@ -1,0 +1,64 @@
+@media print{
+   
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+   
+    body{
+    background-image: url(../img/back-tablet.jpg);
+   }
+   img{
+    margin: auto;
+   }
+
+    #tablet{display: block;}
+    #phone{display: none;}
+    #pc{display: none;}
+    #print{display: none;}
+    #tv{display: none;} 
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    body{
+      background-image: url(../img/back-pc.jpg);  
+      
+    }
+    img{
+        margin: auto;
+    }
+
+    #tablet{display: none;}
+    #phone{display: none;}
+    #pc{display: block;}
+    #print{display: none;}
+    #tv{display: none;}
+    
+}
+
+@media screen and (min-width:1200px) {
+    body{
+        background-image: url(../img/back-tv.jpg);
+    }
+
+    img{
+        margin: auto;
+    }
+
+    #tablet{display: none;}
+    #phone{display: none;}
+    #pc{display: none;}
+    #print{display: none;}
+    #tv{display: block;}
+}
+
+
+
+
+
+
+
+
+    
+
+

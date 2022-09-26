@@ -1,0 +1,28 @@
+body,html{
+    margin: 0px;
+    padding: 0px;  
+    height: 100vh;
+}
+body{
+ background:black url(../img/back-phone.jpg) no-repeat;
+ background-size: cover;
+ background-position: center center;
+ 
+}
+main{
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    width: 50vw;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black ;
+    
+}
+
+#pc{display: none;}
+#tablet{display: none;}
+#print{display: none;}
+#tv{display: none;}

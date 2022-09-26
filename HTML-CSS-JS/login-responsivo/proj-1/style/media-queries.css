@@ -1,0 +1,47 @@
+@media screen and (min-width:768px) and (max-width:992px){
+    
+    body{
+        background-image: linear-gradient(to top, #555697, #FF9F76);
+    }
+    section{
+        width: 80vw;
+    }
+
+    #photo{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    
+    body{
+        animation: backani 4s linear;
+        background-image: linear-gradient(to top, #555697, #FF9F76);
+        
+    }
+
+    section{
+        width: 80vw;
+    }
+
+    #photo{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #form{
+       
+        float: right;
+        width: 50%;
+    }
+}
+
+

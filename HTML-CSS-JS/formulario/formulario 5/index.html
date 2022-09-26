@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.microsoft.com/pt-br/" method="post">
+        <p>
+            <label for="nome">nome</label>
+            <input type="text" name="nome" id="nome" required minlength="5" maxlength="12" placeholder="seu nome aqui" autocomplete="on">
+        </p>
+        <p>
+            <label for="media">media</label>: <input type="number" min="0" max="10" step="0.1" id="media" value="5">
+        </p>
+        <p>
+            <label for="ano">qual seu ano letivo:</label>
+            <input type="date" id="ano" value="2022-08-29">
+        </p>
+        <p>
+            <label for="hora">horas</label>: <input type="time" id="hora">
+        </p>
+        <p>
+        <input type="submit" >
+        <input type="reset">
+        </p>
+        
+    </form>
+</body>
+</html>

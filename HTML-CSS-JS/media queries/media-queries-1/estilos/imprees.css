@@ -1,0 +1,21 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    margin:20px ;
+    background-color: black;
+    color: white;
+}
+menu, header{
+    display: none;
+}
+header>li{
+    display: inline-block;
+}
+
+li:hover{
+    color: wheat;
+}
+article::after{
+    content: 'olha so pronto';
+}
+

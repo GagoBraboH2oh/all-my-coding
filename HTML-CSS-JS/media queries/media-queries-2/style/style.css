@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-color: rgb(182, 141, 147);
+    text-align: center;
+    
+}
+
+h1,h2{
+    color: black;
+    padding: 10px;
+}
+
+p,small{
+    padding: 10px;
+    color: white;
+    
+}
+@media screen and (orientation:landscape) {
+    
+    
+
+   body{
+        background: url(../img/cev-landscape.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left bottom;
+    } 
+
+}
+
+@media screen and (orientation:portrait) {
+   
+    body{
+        background: url(../img/cev-portrait.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+       
+    }
+
+}
+
+
+
