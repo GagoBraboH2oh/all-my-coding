@@ -4,7 +4,9 @@
         padding: 0%;
         font-family: 'Courier New', Courier, monospace;
     }
-
+    li{
+        list-style: none;
+    }
     /*HEADER*/
     header{
         background-color: #F7BF4F;
@@ -32,11 +34,52 @@
         display: block;
         margin: auto;
         height: 50px;
+        
     }
 
-    #menu{
-        position:fixed ;
-        transition: all 3s;
+    #menuimg{
+        margin-left: 10px;
+        float:left;
+        width: 34px;
+        height: 24px;
+        margin-top: -37px;
+        transform: rotate(360deg);
+        transition: all .8s
+        
     }
 
+/*itensmenu*/
+
+    #itensmenu{
+        position: absolute;
+        list-style: none;
+        padding: 20px;
+        margin-top: 10px;
+        background-color: #F7BF4F;
+        width: 50vw;
+        height: 100vh;
+        text-align: center;
+        padding: 0px;
+        list-style-type: none;
+        display: none;
+        border-radius: 0px 14px 0px 0px;
+        transition: all 1s;
+        
+    }
+
+    #itensmenu>ul>li,a{
+        padding-top: 10px;
+        padding-bottom: 180px;
+        color: white;
+        text-decoration: none;
+        transition: all 1s;
+        
+        
+    }
+@keyframes animenu {
+    
+    
+}
+
+    
 }

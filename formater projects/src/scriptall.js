@@ -1,8 +1,16 @@
 function avisar(){
-    let menuwp = document.getElementById('menu');
-
-    menuwp.style.transform = 'rotate(90deg)'
-    menuwp.style.position = 'fixed'
-    menuwp.style.transition = 'all 3s'
+    let menuwp = document.getElementById('menuimg');
+    let itemenu = document.getElementById('itensmenu')
+    if(menuwp.style.transform == 'rotate(360deg)')
+    {
+        menuwp.style.transform = 'rotate(90deg)'
+        itemenu.style.display = 'block'
+        
+        
+    } else{
+        menuwp.style.transform = 'rotate(360deg)'
+        itemenu.style.display = 'none'
+    }
+   
    
 }
