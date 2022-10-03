@@ -64,6 +64,8 @@
         display: none;
         border-radius: 0px 14px 0px 0px;
         transition: all 1s;
+        transform: translateX(100%);
+        transition: 0.3s ease-in;
         
     }
 
@@ -75,11 +77,10 @@
         transition: all 1s;
         
         
+        
     }
-@keyframes animenu {
-    
-    
-}
+
+   
 
     
 }
